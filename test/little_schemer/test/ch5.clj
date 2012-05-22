@@ -8,3 +8,9 @@
   (is (= (rember* 'sauce
                   '(((tomato sauce)) ((bean) sauce) (and ((flying)) sauce)))
          '(((tomato)) ((bean)) (and ((flying)))))))
+
+(deftest insertR*-test
+  (is (= (insertR* 'hot 'cup '(cup ((tea) cup)))
+         '(cup hot ((tea) cup hot))))
+  (is (= (insertR* 'red 'sauce '(((sauce)) ((sauce) can)))
+         '(((sauce red)) ((sauce red) can)))))
