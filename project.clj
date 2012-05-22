@@ -1,3 +1,3 @@
 (defproject little-schemer "1.0.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :dependencies [[org.clojure/clojure "1.2.1"]])
+  :description "Little Schemer in Clojure"
+  :dependencies [[org.clojure/clojure "1.4.0"]])
