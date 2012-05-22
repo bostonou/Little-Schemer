@@ -1,13 +1,7 @@
 # little-schemer
 
-FIXME: write description
+I'm practicing/learning Clojure by working through The Little Schemer.
 
-## Usage
+Copyright (C) 2012 Jonathan Boston
 
-FIXME: write
-
-## License
-
-Copyright (C) 2012 FIXME
-
-Distributed under the Eclipse Public License, the same as Clojure.
+Distributed under the MIT License
